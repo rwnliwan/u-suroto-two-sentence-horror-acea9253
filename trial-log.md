@@ -30,6 +30,7 @@
 |---|---|---|---|---|
 | 0 | (pre-build) trial log + facts recorded; 6 fresh candidates drafted, char counts by Python | — | — | FINAL = candidate #3 (131 chars, 2 sentences) |
 | 1 | Builder v1 — main.ts, entry FINAL (131 chars, 133 bytes: em dash is 3 bytes UTF-8) | 131 chars / 133 bytes, 2 sentences, UTF-8, non-whitespace | PASS — local run via ENTRY_OUTPUT twice, byte-identical sha256 8cfbda848c35a3b6f1b880379084ae83434167630adb9f6f582b76c9d0dd8436; Node 24.22.1 type-stripping runs main.ts directly, stdlib only, no network | Builder session 72776526-ef87-4245-916f-96d3b969b9a7 |
+| 2 | GitHub — repo publik rwnliwan/u-suroto-two-sentence-horror-acea9253 dibuat (SETELAH opening 24 Nov 07:59:17Z), push commit fbac63bf281291733c69e735ca6396058c29b231 | repo PUBLIC | PASS — git ls-remote HEAD = commit lokal fbac63bf281291733c69e735ca6396058c29b231 | + README (3 badge), LICENSE (MIT), .makefun/owner.json |
 
 ## Status
 - NOT YET SUBMITTED. Entry final (131 chars, 2 sentences) + repo to be created and pushed. NEXT: local runs, GitHub repo, bundle, check; coordinator re-bundles with --muse-usage and submits after ACC.
